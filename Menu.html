@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>  
+    <!-- <link href="styles.css" rel="stylesheet"> -->
+</head>
+<body>
+   <!-- HTML  -->
+   <link href="styles.css" rel="stylesheet">
+   <div class="background"></div>
+   <button class="burger" 
+   onclick="togglemenu(open)"> 
+   </button>
+   <div class="menu">
+    <nav>
+        <a href="#" 
+        style="animation-delay: 0.1s" >
+        About
+    </a>
+        <a href="#" 
+        style="animation-delay: 0.2s">
+        Portfolio
+    </a> 
+        <a href="#" 
+        style="animation-delay: 0.2s">
+        Services
+    </a> 
+        <a href="#" 
+        style="animation-delay: 0.2s">
+        Contact
+    </a> 
+    </nav>
+   </div>
+   <script type="text/javascript">
+   // corrected code
+   const togglemenu = () => {
+      document.body.classList.toggle("open");
+   };
+   </script>
+</body>
+</html> 
+
+
+
+
